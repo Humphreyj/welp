@@ -1,33 +1,166 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+  justify-content: space-evenly;
+
+}
+.sidebar {
+  width: 400px;
+  background-color: #333;
+  height: 100%;
+}
+
+/*Navigation*/
+.navbar {
+  background-color: #5D636A;
+  color: #4EABC6;
+}
+.nav-item {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 18px;
+  font-family: 'Merriweather', serif;
+}
+.nav-item:hover {
+  text-decoration: underline;
+  
+}
+.welp-nav {
+  font-family: 'Noto Sans', serif;
+  font-weight: bold;
+}
+/*Navigation*/
+
+/*Home*/
+.home {
+  background: url('img/waterBg.jpeg');
+  position: relative;
+  opacity: .70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+}
+.home-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bolder;
+  letter-spacing: 4px;
+  padding: 25px;
+  color: #ddd;
+  opacity: 1.0;
+  width: 50%;
+  height: auto;
+  margin: auto;
+  background-color: #333;
+  font-family: 'Merriweather',sans-serif;
+}
+.welp {
+  letter-spacing: 4px;
+  font-size: 40px;
+}
+.welp-text {
+  font-size: 22px;
+}
+/*Home*/
+
+/*Location*/
+.location-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.location {
+  padding: 10px;
+  font-size: 22px;
+  font-family: 'B612',serif;
+  font-weight: bold;
+}
+.get-location {
+  margin-left: 5px;
+  height: auto;
+  font-size: 16px;
+  padding: 2px;
+  font-family: 'B612',serif;
+}
+/*Location*/
+
+/*User*/
+.user {
+  padding: 20px;
+  border-bottom: 1px solid black;
+  background-color: #4F7783;
+}
+.username {
+  font-family: 'Merriweather',sans-serif;
+}
+.user-info {
+  background-color: #333;
   color: white;
+  padding: 10px 0px 10px 0px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+.review-number {
+  font-family: 'Noto Sans', serif;
+  width: 25%;
+  margin: auto;
+}
+.review-number:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+/*User*/
+
+/*Ratings*/
+.restaurant-ratings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.search {
+  margin-top: 20px;
+}
+.go {
+  margin-top: 5px;
+  height: auto;
+  font-size: 16px;
+  padding: 2px;
 }
 
-.App-link {
-  color: #61dafb;
+.rating {
+  padding: 5px;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card-img-top {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+.score {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+/*Ratings*/
