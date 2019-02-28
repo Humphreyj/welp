@@ -130,15 +130,23 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  background-color: #5D636A;
+}
+.search-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #5D636A;
+  width: 100%;
 }
 .search {
   margin-top: 20px;
 }
 .go {
-  margin-top: 5px;
+  margin-top: 20px;
   height: auto;
   font-size: 16px;
-  padding: 2px;
+  padding: 2px 4px 2px 4px;
 }
 
 .rating {
@@ -148,6 +156,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  background-color: white;
 }
 .card-img-top {
   width: 400px;
@@ -161,6 +170,15 @@
   width: 60%;
   margin: auto;
 }
-
-
 /*Ratings*/
+
+/*Media Queries*/
+@media (max-width: 700px) {
+/*Ratings*/
+  .card-img-top {
+    width: 200px;
+    height: 200px;
+  }
+/*Ratings*/
+}
+/*Media Queries*/

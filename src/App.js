@@ -5,7 +5,6 @@ import Navigation from './components/Navigation'
 import Home from './components/Home'
 import User from './components/User'
 import Ratings from './components/Ratings'
-import Sidebar from './components/Sidebar'
 
 class App extends Component {
   render() {
