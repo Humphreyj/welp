@@ -6,7 +6,7 @@ export class User extends Component {
 		return (
 		<div className="user">
 	        <div className="user-image">
-	            <img src="https://www.fillmurray.com/200/300" alt="user pic"/>
+	            <img src="https://www.fillmurray.com/200/308" alt="user pic"/>
 	        </div> {/*userpic*/}
 	        <div className="user-info">
 	          <p className="username">Aquadude500</p>

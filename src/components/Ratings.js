@@ -56,6 +56,10 @@ const Ratings = (props) => {
 				<button className="btn btn-primary">Rate Restaurant</button>
 			</div>
 		</div>
+		<div className="pagination">
+			<p className="last"><i className="far fa-hand-point-left"></i> Back</p>
+			<p className="next">Next <i className="far fa-hand-point-right"></i></p>
+		</div>
 </section>
 
 </div>
